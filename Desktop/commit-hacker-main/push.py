@@ -9,7 +9,7 @@ def fileing(i):
        file.close()
 
 def load():
-    start_date = datetime.date(2022, 1, 1)
+    start_date = datetime.date(2023, 8, 5)
     end_date = datetime.date(2023, 12, 1)
     delta = datetime.timedelta(days=1)
     while (start_date <= end_date):
